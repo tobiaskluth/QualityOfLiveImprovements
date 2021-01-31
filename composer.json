@@ -1,0 +1,23 @@
+{
+  "name": "tk/quality-of-live-improvements",
+  "description": "Skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Tobias Kluth"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+      "QualityOfLiveImprovements\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "QualityOfLiveImprovements\\QualityOfLiveImprovements",
+    "label": {
+      "de-DE": "Kleine und Große Änderungen um ALlen das Leben leichter zu machen.",
+      "en-GB": "Minor and major changes to make everyones live easier."
+    }
+  }
+}
